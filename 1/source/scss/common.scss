@@ -1,0 +1,29 @@
+.title {
+  font-size: 32px;
+  line-height: 37px;
+  @media (max-width: $md3) {
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
+.button {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  border-radius: 44px;
+  padding: 13px 25px;
+  font-weight: bold;
+  @media (max-width: $md3) {
+    font-size: 12px;
+  }
+}
+.items-title {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.36px;
+}
+.items-subtitle {
+  font-size: 15px;
+  line-height: 24px;
+}
